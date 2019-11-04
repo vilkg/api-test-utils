@@ -3,6 +3,7 @@ name: Deploy package
     push:
       branches:
         -master
+        -ci/deploy-packages
 
   jobs:
     build:
