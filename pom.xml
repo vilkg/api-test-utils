@@ -58,4 +58,11 @@
     </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/dhis2/api-test-utils</url>
+      <name>GitHub DHIS2 Maven Packages</name>
+    </repository>
+  </distributionManagement>
 </project>
